@@ -1,0 +1,52 @@
+
+@import "./colum1.css";
+@import "./colum2.css";
+@import "button.css";
+@import "button-icon.css";
+
+
+:root{
+    --purple: #310A90;
+    --green: #42E2B8;
+    --white: white;
+
+    
+
+    --fontBase: 'Poppins', sans-serif;
+    --headline1: bold 95px/153.71px var(--fontBase);
+    --headline2: bold 59px/95px var(--fontBase);
+    --headline3: bold 48px/77px var(--fontBase);
+    --headline4: bold 34px/55px var(--fontBase);
+    --headline5: bold 24px/38px var(--fontBase);
+    --button:  15px/22px var(--fontBase);
+
+}
+
+
+
+
+
+
+*{  margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: #000000; 
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+  
+}
+
+
+
+
+
+
+
+

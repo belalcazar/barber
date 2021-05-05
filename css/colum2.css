@@ -1,0 +1,70 @@
+.colum2{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    justify-content: center;
+    height:100%;
+    background:#000000;
+    align-items: center;
+    }
+
+
+    .logo{
+    box-sizing: border-box;        
+        
+        margin-top: 20px;
+        
+        
+        border: solid red 1px;
+        
+        width: 200px;        
+    }
+
+
+    .contenedor-slogan{
+        display: flex;
+        
+        justify-content: center;
+        width: 80%;
+        border: solid #2210c7 1px;
+    }
+
+
+
+    .caja{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        text-align: right;
+        width: au;
+        border: solid #d6da14 1px;
+        ;
+    }
+
+    .caja p{
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        font: var(--button);
+        justify-content: center;
+        width: 100%;
+        border: solid #14da77 1px;
+    }
+
+
+    .barbero{
+        border: solid red 1px;
+        width: 150px;
+        align-content: center;
+        margin-top: 20px;
+    }
+
+     p{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: red solid 1px;
+        margin-top: 20px;
+        color: #ffffff;
+    }
+        
