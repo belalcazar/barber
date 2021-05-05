@@ -1,0 +1,54 @@
+:root{
+    --cafe: #1f140f;
+    --gray: #a5a5a5;
+    --white: white;
+    --white-transp: #ffffffa1;
+    --orange: #e45826;
+    --blue: #001880;
+    --green: #00903d;
+    --dark-yellow: #f0a500;
+    --rojo: #bb0b24;
+    --fontBase: 'Poppins', sans-serif;
+    --fontForm: 'Antonio', sans-serif;
+    --headline2: bold 59px/95px var(--fontBase);
+     --button:  18px/22px var(--fontBase);
+     --font-main:  15px/22px var(--fontBase);
+     --form-font:  25px/32px var(--fontForm);
+}
+
+
+
+body{
+    background: url(../img/backgroung.jpg) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 1px solid red;
+    height: auto;
+    
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--white-transp);
+    backdrop-filter: blur(50px);
+    width: 50%;
+    height: 70%;
+    border-radius: 0px 0px 30px 20px;
+    
+    
+}
+
+
+.logo{
+    width: 150px;
+}

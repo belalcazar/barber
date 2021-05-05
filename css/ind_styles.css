@@ -1,0 +1,52 @@
+
+@import "./ind_colum1.css";
+@import "./ind_colum2.css";
+@import "ind_button.css";
+@import "ind_button-icon.css";
+
+
+:root{
+    --cafe: #1f140f;
+    --gray: #a5a5a5;
+    --white: white;
+    --orange: #e45826;
+    --blue: #001880;
+    --green: #00903d;
+    --dark-yellow: #f0a500;
+    --rojo: #bb0b24;
+    --fontBase: 'Poppins', sans-serif;
+    --fontForm: 'Antonio', sans-serif;
+    --headline2: bold 59px/95px var(--fontBase);
+     --button:  18px/22px var(--fontBase);
+     --font-main:  15px/22px var(--fontBase);
+     --form-font:  25px/32px var(--fontForm);
+}
+
+
+
+
+
+
+*{  margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: #000000; 
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+  
+}
+
+
+
+
+
+
+
+
