@@ -54,35 +54,21 @@ body {
   background: var(--gray);
 }
 
-
-
 .recordar {
   display: grid;
-  
-   
+
   align-items: center;
   border: solid red 1px;
-  
 }
 
-
-
-
 .recordar p {
-  
   display: flex;
   justify-content: center;
   color: aqua;
   padding: 0 50px;
   font-size: 15px;
   color: var(--orange);
-  
-  
 }
-
-
-
-
 
 .cortar-cabello {
   margin-top: 70px;
@@ -116,7 +102,6 @@ body {
   padding-bottom: 10px;
 }
 
-
 .redes h1 {
   display: flex;
   justify-content: center;
@@ -124,11 +109,9 @@ body {
   color: var(--orange);
   padding-top: 10px;
   padding-bottom: 10px;
-  ;
-  
 }
 
-.no p{
+.no p {
   font: var(--button);
   color: var(--orange);
   position: relative;
