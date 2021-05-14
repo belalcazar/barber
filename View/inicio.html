@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>inicio</title>
     <link rel="stylesheet" href="../css/ini_styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
 
 </head>
 
@@ -19,31 +25,54 @@
 
         <div class="form">
 
-            <input class="nombre" placeholder="Nombre" type="text">
 
+            <div class="input-wrapper">
+                <input placeholder="Correo o Usuario" id="stuff">
+                <label for="stuff" class="fa fa-user input-icon"></label>
+            </div>
 
-            <input class="password" placeholder="password" type="password">
+            <div class="input-wrapper">
+                <input type="password" placeholder="Password" id="stuff">
+                <label for="stuff" class="fas fa-lock input-icon"></label>
+            </div>
 
         </div>
 
         <div class="recordar">
-            <input class="recordarme" type="checkbox">Recordarme</input>
-            <p>Olvide mi clave</p>
+            <div style="width: 50%;">
+                <input class="recordarme" type="checkbox"> Recordarme</input>
+
+            </div>
+            <div style="width: 50%;">
+                <a class="">Olvide mi contraseña</a>
+            </div>
         </div>
 
         <div class="cortar-cabello">
             <button class="a">CORTAR CABELLO</button>
             <button class="b">Registrarme</button>
 
-        </div> 
+        </div>
         <div class="redes">
             <p>ingresa tambien con</p>
-            <h1>logos redes</h1>
+            <div>
+                <div class="logos-redes">
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fas fa-envelope"></i>
+                </div>
+
+            </div>
+
         </div>
     </section>
     <div class="no">
         <p>No, Llèvame de nuevo con mamá</p>
     </div>
 </body>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous"></script>
 
 </html>

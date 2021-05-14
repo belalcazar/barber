@@ -1,119 +1,160 @@
 @import "ind_styles.css";
-
 body {
-  background: url(../img/backgroung.jpg);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    background: url(../img/backgroung.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.692);
-  backdrop-filter: blur(50px);
-  width: 500px;
-  height: 70%;
-  border-radius: 0px 0px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.692);
+    backdrop-filter: blur(50px);
+    width: 400px;
+    border-radius: 0px 0px 30px 20px;
+    box-shadow: 7px 5px 25px rgb(167, 166, 166);
 }
 
 .logo {
-  width: 250px;
-  margin-top: 50px;
+    width: 150px;
+    margin-top: 50px;
 }
 
 .logo-content p {
-  display: flex;
-  flex-wrap: wrap;
-  font: var(--button);
-  flex-direction: row;
-  justify-content: center;
-  margin: 5px;
-  margin-top: 30px;
-  color: var(--cafe);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+    margin-top: 30px;
+    color: var(--cafe);
+    font: var(--form-font);
+    font-size: 20px;
 }
 
 .form {
-  display: flex;
-  flex-direction: column;
-  margin-top: 0px;
-  margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .form input {
-  width: 250px;
-  height: 20px;
-  margin: 5px;
-  padding: 5px;
-  border-radius: 20px;
-  border: none;
+    width: 250px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+    padding-left: 35px;
+    background: rgb(209, 209, 209);
+    outline: none;
 }
 
-.form .password {
-  background: var(--gray);
+.form input:focus {
+    width: 250px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+    padding-left: 35px;
+    background: rgb(255, 255, 255);
+    outline: none;
+}
+
+.input-icon {
+    position: absolute;
+    left: 10px;
+    top: calc(50% - 0.5em);
+    /* Keep icon in center of input, regardless of the input height */
+}
+
+.input-wrapper {
+    position: relative;
+    margin: 5px 0;
 }
 
 .recordar {
-  display: grid;
-
-  align-items: center;
-  border: solid red 1px;
-}
-
-.recordar p {
-  display: flex;
-  justify-content: center;
-  color: aqua;
-  padding: 0 50px;
-  font-size: 15px;
-  color: var(--orange);
+    display: flex;
+    width: 70%;
+    align-items: center;
+    font: var(--button);
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 .cortar-cabello {
-  margin-top: 70px;
-  display: flex;
-  flex-direction: column;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .cortar-cabello .a {
-  padding: 10px;
-  margin: 5px 0px;
-  width: 150px;
-  border-radius: 50px;
-  background: var(--cafe);
-  color: var(--white);
-  border: none;
+    padding: 10px;
+    margin: 5px 0px;
+    width: 150px;
+    border-radius: 50px;
+    background: var(--cafe);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+}
+
+.cortar-cabello .a:hover {
+    padding: 10px;
+    margin: 5px 0px;
+    width: 150px;
+    border-radius: 50px;
+    background: var(--orange);
+    color: var(--white);
+    border: none;
 }
 
 .cortar-cabello .b {
-  padding: 10px;
-  margin: 5px 0px;
-  width: 150px;
-  border-radius: 50px;
-  color: var(--cafe);
-  border: 1px solid var(--cafe);
+    padding: 10px;
+    margin: 5px 0px;
+    width: 150px;
+    border-radius: 50px;
+    color: var(--cafe);
+    border: 1px solid var(--cafe);
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cortar-cabello .b:hover {
+    padding: 10px;
+    margin: 5px 0px;
+    width: 150px;
+    border-radius: 50px;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .redes p {
-  font: var(--button);
-  color: var(--orange);
-  padding-top: 10px;
-  padding-bottom: 10px;
+    font: var(--form-font);
+    color: var(--orange);
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.redes h1 {
-  display: flex;
-  justify-content: center;
-  font: var(--button);
-  color: var(--orange);
-  padding-top: 10px;
-  padding-bottom: 10px;
+.logos-redes {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 50px;
 }
 
 .no p {
-  font: var(--button);
-  color: var(--orange);
-  position: relative;
-  top: -15px;
+    font: var(--form-font);
+    color: var(--orange);
+    position: relative;
+    top: -15px;
+    font-size: 18px;
 }
