@@ -1,0 +1,210 @@
+@import "ind_styles.css";
+body {
+  background: url(../img/backgroung.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.692);
+  backdrop-filter: blur(50px);
+  width: 400px;
+  border-radius: 0px 0px 30px 20px;
+  box-shadow: 7px 5px 25px rgb(167, 166, 166);
+}
+
+.logo {
+  width: 150px;
+  margin-top: 30px;
+}
+
+.logo-content p {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+  margin-top: 20px;
+  color: var(--cafe);
+  font: var(--form-font);
+  font-size: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.form input {
+  width: 250px;
+  height: 20px;
+  border-radius: 20px;
+  border: none;
+  padding: 5px;
+  padding-left: 35px;
+  background: rgb(209, 209, 209);
+  outline: none;
+}
+
+.form input:focus {
+  width: 250px;
+  height: 20px;
+  border-radius: 20px;
+  border: none;
+  padding: 5px;
+  padding-left: 35px;
+  background: rgb(255, 255, 255);
+  outline: none;
+}
+
+.input-icon {
+  position: absolute;
+  left: 10px;
+  top: calc(50% - 0.5em);
+  /* Keep icon in center of input, regardless of the input height */
+}
+
+.input-wrapper {
+  position: relative;
+  margin: 5px 0;
+}
+
+.foto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 210px;
+    margin-top: 20px;
+    
+}
+
+.enlaces{
+    
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    
+}
+
+.enlaces .a{
+    background: var(--blue);
+    color: var(--white);
+    width: 110px;
+    border-radius: 20px;
+    text-align: center;
+    font: var(--button);
+    font-size: 13px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.enlaces .a:hover{
+    background: var(--orange);
+   
+}
+
+.enlaces .b{
+    
+    color: var(--blue);
+    width: 110px;
+    border-radius: 20px;
+    border: solid 1px var(--blue);
+    text-align: center;
+    font: var(--button);
+    font-size: 13px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+
+.enlaces .b:hover{
+    
+    color: var(--orange);
+    
+    border-radius: 20px;
+    border: solid 1px var(--orange);
+   
+}
+
+.foto img{
+    display: flex;
+    height: 100%;
+    
+    
+    
+}
+
+.ingresar {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    
+    
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    
+
+}
+
+.ingresar .a {
+    background: var(--orange);
+    color: var(--white);
+    width: auto;
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+    font: var(--button);
+    font-size: 15px;
+    margin: 5px;
+    text-decoration: none;
+
+}
+
+.ingresar .a:hover {
+    background: var(--blue);
+   
+
+}
+
+.ingresar .b {
+    color: var(--blue);
+    width: auto;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: solid 1px var(--blue);
+    text-align: center;
+    font: var(--button);
+    font-size: 15px;
+    margin: 5px;
+    text-decoration: none;
+
+}
+
+
+
+.ingresar .b:hover {
+    color: var(--orange);
+    
+    border-radius: 20px;
+    border: solid 1px var(--orange);
+
+
+}
+

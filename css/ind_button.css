@@ -1,54 +1,62 @@
-.button1, .button2{
+.button1,
+.button2 {
+  color: var(--white);
+  font: var(--button);
+  padding-inline-start: 30px;
+  padding-inline-end: 30px;
+  padding-block-start: 12px;
+  padding-block-end: 12px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button1 {
+  background: var(--white);
+  color: var(--cafe);
+  
+}
+
+
+.button1:hover {
+    background: var(--cafe);
     color: var(--white);
-    font: var(--button);
-    padding-inline-start: 30px;
-    padding-inline-end: 30px;
-    padding-block-start: 12px;
-    padding-block-end: 12px;
-    border-radius: 10px;
-    text-transform: uppercase;
-    margin: 5px;
-        text-decoration: none;
-    text-align: center;
     
-    }
-    
-    .button1{
+  }
+
+
+
+
+
+
+.button2 {
+  background: var(--cafe);
+  color: var(--white);
+}
+
+.button2:hover {
     background: var(--white);
     color: var(--cafe);
-    
-    }
-
-    .button2{
-        background: var(--cafe);
-        color: var(--white);
-        
-        }
+  }
 
 
-
-.caja-button{
-    display: flex;
-    flex-direction: column;
-    margin-top: 10%;
-    
-    padding: 2px;
-    border-radius: 10px;
-    
-    background: var(--gray);
+.caja-button {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  padding: 2px;
+  border-radius: 10px;
+  background: var(--gray);
+  
 }
 
 
 
-.caja-button  :hover{
-    background:var(--cafe);
-    color: var(--white);
-    
-    }
 
-
-@media screen and (min-width:768px){
-    .caja-button{
-        flex-direction:row ;
-    }
-    }
+@media screen and (min-width: 768px) {
+  .caja-button {
+    flex-direction: row;
+  }
+}

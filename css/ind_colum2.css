@@ -1,70 +1,51 @@
-.colum2{
-    display: flex;
-    flex-direction: column;
-    width:60%;
-    justify-content: center;
-    height:100%;
-    background:#000000;
-    align-items: center;
-    }
+.colum2 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  height: 100%;
+  background: #000000;
+  align-items: center;
+}
+
+.logo {
+  box-sizing: border-box;
+
+  margin-top: 20px;
+
+  width: 200px;
+}
+
+.contenedor-slogan {
+  display: flex;
+
+  justify-content: center;
+  width: 80%;
+}
+
+.caja {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  text-align: right;
+}
 
 
-    .logo{
-    box-sizing: border-box;        
-        
-        margin-top: 20px;
-        
-        
-        
-        
-        width: 200px;        
-    }
+.barbero {
+  width: 150px;
+  align-content: center;
+  margin-top: 20px;
+}
 
-
-    .contenedor-slogan{
-        display: flex;
-        
-        justify-content: center;
-        width: 80%;
-        
-    }
-
-
-
-    .caja{
-        display: flex;
-        flex-direction: row;
-        margin-top: 50px;
-        text-align: right;
-      
-    }
-
-    .caja p{
-        display: flex;
-        align-items: center;
-        text-transform: uppercase;
-        
-        justify-content: center;
-        width: 100%;
-        
-    }
-
-
-    .barbero{
-        
-        width: 150px;
-        align-content: center;
-        margin-top: 20px;
-    }
-
-     p{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        
-        margin-top: 20px;
-color: #ffffff;
-        font: var(--form-font);
-        
-    }
-        
+.caja p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: #ffffff;
+  font: var(--form-font);
+  width: 100%;
+  
+  text-transform: uppercase;
+}
