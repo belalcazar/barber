@@ -283,7 +283,7 @@ body{
     align-items: center;
     background: rgba(255, 255, 255, 0.692);
     backdrop-filter: blur(50px);
-    width: 850px;
+    width: 80%;
     border-radius: 0px 0px 30px 20px;
     box-shadow: 7px 5px 25px rgb(167, 166, 166);
   }
@@ -303,3 +303,13 @@ body{
       height: 250px;
       transform: translate(-0% , -50%);
   }
+
+  .category{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+    }
+
+    .category img{
+      padding: 10px 20px;
+       }
