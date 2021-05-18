@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 60%;
   justify-content: center;
-  height: 100%;
+  height: 100vh;
   background: #000000;
   align-items: center;
 }
@@ -11,9 +11,9 @@
 .logo {
   box-sizing: border-box;
 
-  margin-top: 20px;
+  margin-top: 5%;
 
-  width: 200px;
+  width: 230px;
 }
 
 .contenedor-slogan {
@@ -26,13 +26,13 @@
 .caja {
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
+  margin-top: 5%;
   text-align: right;
 }
 
 
 .barbero {
-  width: 150px;
+  width: 250px;
   align-content: center;
   margin-top: 20px;
 }
@@ -45,6 +45,8 @@
   margin-top: 20px;
   color: #ffffff;
   font: var(--form-font);
+  font-size: 50px;
+  line-height: 50px;
   width: 100%;
   
   text-transform: uppercase;

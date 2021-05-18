@@ -12,13 +12,13 @@ body {
   align-items: center;
   background: rgba(255, 255, 255, 0.692);
   backdrop-filter: blur(50px);
-  width: 400px;
+  width: 450px;
   border-radius: 0px 0px 30px 20px;
   box-shadow: 7px 5px 25px rgb(167, 166, 166);
 }
 
 .logo {
-  width: 150px;
+  width: 200px;
   margin-top: 30px;
 }
 
@@ -42,8 +42,8 @@ body {
 }
 
 .form input {
-  width: 250px;
-  height: 20px;
+  width: 280px;
+  height: 25px;
   border-radius: 20px;
   border: none;
   padding: 5px;
@@ -53,8 +53,8 @@ body {
 }
 
 .form input:focus {
-  width: 250px;
-  height: 20px;
+  width: 280px;
+  height: 25px;
   border-radius: 20px;
   border: none;
   padding: 5px;
@@ -79,16 +79,18 @@ body {
   display: flex;
   align-items: center;
 
-  width: 70%;
+  width: auto;
 
-  margin-top: 10px;
+  
+  
   
 }
 
 .recordar p {
   display: flex;
   font: var(--form-font);
-  font-size: 13px;
+  font-size: 15px;
+  margin-left: 8px;
   color: var(--cafe);  
   cursor: pointer;
 }
@@ -97,19 +99,19 @@ body {
 .recordar p:hover {
     display: flex;
     font: var(--form-font);
-    font-size: 13px;
+    font-size: 15px;
     color: var(--orange);  
     cursor: pointer;
   }
 
 .recordar a {
   display: flex;
-  align-items: flex-end;
+  
   font: var(--form-font);
-  font-size: 13px;
+  font-size: 15px;
   color: var(--orange);
     cursor: pointer;
-  margin-left: 120px;
+  margin-left: 130px;
 }
 
 
@@ -117,15 +119,15 @@ body {
     display: flex;
     align-items: flex-end;
     font: var(--form-font);
-    font-size: 13px;
+    font-size: 15px;
     color: var(--blue);
       cursor: pointer;
-    margin-left: 120px;
+    margin-left: 130px;
   }
 
 .cortar-cabello {
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
 }
