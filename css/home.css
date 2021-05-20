@@ -20,7 +20,7 @@ body {
   position: relative;
   min-height: 100vh;
   width: 100%;
-  overflow: hidden;
+  overflow: visible;
 }
 ::selection {
   color: #fff;
@@ -278,7 +278,7 @@ body {
   align-items: center;
   background: rgba(255, 255, 255, 0.692);
   backdrop-filter: blur(50px);
-  width: 80%;
+  width: 70%;
   border-radius: 0px 0px 30px 20px;
   box-shadow: 7px 5px 25px rgb(167, 166, 166);
   padding: 20px;
@@ -304,7 +304,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 650px;
+  width: 100%;
   padding: 10px;
   background: rgba(255, 255, 255, 0.692);
   backdrop-filter: blur(50px);
@@ -312,13 +312,18 @@ body {
   box-shadow: 7px 5px 25px rgb(167, 166, 166);
   margin-bottom: 20px;
 
-  border: red 1px solid;
+  
 }
 
 .content_category p {
   display: flex;
+  height: 32px;
+  width: 70%;
+  text-align: center;
   justify-content: center;
-  border: red 1px solid;
+  align-items: center;
+  margin-top: 5px;
+  
 }
 
 .content_category img {
@@ -326,7 +331,17 @@ body {
   width: 70px;
   height: 70px;
   border-radius: 50px;
-  border: red 1px solid;
+  
+}
+
+
+.cat{
+  
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  align-items: center;
+  margin: 5px;
 }
 
 .content_promo {
