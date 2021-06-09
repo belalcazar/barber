@@ -1,4 +1,10 @@
+
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+
+
+
  * {
 	 box-sizing: border-box;
 }
@@ -17,12 +23,13 @@
 	 font-weight: 300;
 }
  .row {
-	 max-width: 900px;
+	 max-width: 500px;
 }
  .card {
 	 float: left;
 	 padding: 0 1.7rem;
 	 width: 50%;
+	 
 }
  .card .menu-content {
 	 list-style-type: none;
@@ -51,7 +58,7 @@
 }
  .card .wrapper {
 	 background-color: #fff;
-	 min-height: 540px;
+	 min-height: 260px;
 	 position: relative;
 	 overflow: hidden;
 	 box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
@@ -70,7 +77,7 @@
 	 transition: transform 0.3s;
 }
  .card .data .content {
-	 padding: 1em;
+	 padding: 5px;
 	 position: relative;
 	 z-index: 1;
 	 display: flex;
@@ -78,8 +85,20 @@
 	 align-content: flex-end;
 	 align-items: flex-end;
 }
+
+
+
+
+
+
+
+
+
+
+
+
  .card .barber {
-	 font-size: 20px;
+	 font-size: 15px;
 	 font-weight: 800;
 }
  .card .title {
@@ -94,24 +113,34 @@
 .card .puntuacion {
 	margin-top: 0;
 	font-size: 15px;
-	background: red;
+	position: absolute;
+	top: 25px;
+	
 	width: 50px;
 	
 }
 
 .card .dir {
 	
-	font-size: 15px;
-	background: rgb(255, 0, 157);
+		position: absolute;
 	text-align: right;
-	
+	top: 50px;
+	width: 95%;
+	padding: 3px;
+	font-size: 12px;
 }
 
  .card .text {
-	 height: 70px;
-	 margin: 0;
+	 height: auto;
 	 text-align: right;
 }
+
+
+.text{
+	font-size: 10px;
+	height: auto;	
+}
+
  .card input[type='checkbox'] {
 	 display: none;
 }
@@ -170,45 +199,43 @@
 	flex-direction: row;
 	width: 100%;
 	height: 120px;
-	border: 1px solid red;
+	
 	
 }
 
 
 
 .content img{
-	height: 50px;
+	height: 40px;
 	border-radius: 50px;
 }
 
 
 
 .barber-img{
-	width: 30%;
-	border: 1px solid red;
+	width: 40%;	
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
-	
-	background: royalblue;
 	align-items: center;
 }
 
 .barber-img p{
-	color: sandybrown;
-	background: springgreen;
-	padding: 0 5px;
+	display: flex;
+	position: relative;
+	bottom: 10%;
+	color: rgb(30, 255, 0);
 	border-radius: 5px;
+	font-size: 12px;
+	font-weight: 800;
+	text-transform: uppercase;
+	
 	
 }
 
 .barber-info{
-	width: 70%;
-	
-	background: chartreuse;
+	width: 70%;	
 	display: flex;
-	flex-direction: column;
-	
+	flex-direction: column;	
 	align-items: flex-end;
 }
 
@@ -226,10 +253,10 @@
  .example-2 .button {
 	 display: block;
 	 width: 100px;
-	 margin: 2em auto 1em;
+	 margin:0em auto 1em;
 	 text-align: center;
 	 font-size: 12px;
-	 color: #fff;
+	 color: rgb(250, 0, 0);
 	 line-height: 1;
 	 position: relative;
 	 font-weight: 700;

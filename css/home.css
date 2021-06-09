@@ -322,7 +322,8 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin-top: 5px;
+  margin-top: 4px;
+  font-size: 15px;
   
 }
 
@@ -331,6 +332,8 @@ body {
   width: 70px;
   height: 70px;
   border-radius: 50px;
+  border: solid 5px rgb(168, 168, 168);
+  margin-top: 20px;
   
 }
 
